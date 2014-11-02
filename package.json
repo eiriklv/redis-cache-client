@@ -1,23 +1,31 @@
 {
-    "name": "redis-cache-client",
-    "version": "1.0.0",
-    "main": "./lib/index",
-    "description": "Redis Cache Abstraction",
-    "dependencies": {
-        "async": "0.9.x",
-        "debug": "2.0.x"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/eiriklv/redis-cache-client.git"
-    },
-    "keywords": [
-        "redis",
-        "cache"
-    ],
-    "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)"
+  "name": "redis-cache-client",
+  "version": "1.0.0",
+  "main": "./lib/index",
+  "description": "Redis Cache Abstraction",
+  "dependencies": {
+    "async": "0.9.x",
+    "debug": "2.0.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/redis-cache-client.git"
+  },
+  "keywords": [
+    "redis",
+    "cache"
+  ],
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "bugs": {
+    "url": "https://github.com/eiriklv/redis-cache-client/issues"
+  },
+  "homepage": "https://github.com/eiriklv/redis-cache-client",
+  "directories": {
+    "example": "example"
+  },
+  "license": "MIT"
 }
