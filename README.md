@@ -22,12 +22,12 @@ var myData = {
 
 // set cache with 6 minute TTL (time-to-live)
 cache.set('mykey', myData, 360, function(err) {
-    callback(err, false, articles);
+    // err is null unless something bad happens
 });
 
 // set cache without TTL
 cache.set('mykey', myData, null, function(err) {
-    callback(err, false, articles);
+    // err is null unless something bad happens
 });
 
 // get cache from the same key as above (myprefix:mykey)
